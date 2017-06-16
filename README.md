@@ -24,3 +24,24 @@ Ref :: http://www.bogotobogo.com/MEAN-Stack/Building-REST-API-with-Node-Mongodb.
 
 ## Beginner's guide to MEAN Stack - MongoDB, Express.js, Angular 2 and Node.js
 Nov 2, 2016 :: http://thelillysblog.com/2016/11/02/MEAN-stack-with-Angular2/
+
+## Add User Model
+# Post 
+{
+"id" : "ravir2",
+"fullName" : "Raja Ravir",
+"employId" : 342222,
+"role" : "petr-it-admin" 
+}
+{
+"id" : "balass2",
+"fullName" : "Sasidharan Balasubramanian",
+"employId" : 342223,
+"role" : "gcm-admin" 
+}
+{
+"id" : "reamc2",
+"fullName" : "Cheryl Ream",
+"employId" : 342224,
+"role" : "gcm-user" 
+}
