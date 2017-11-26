@@ -26,7 +26,24 @@ Let's make server.js:
 14. Test it :: http://localhost:3000/api/products
 15. models/product.js
 16. update api.js
-17. Test it :: http://localhost:3000/api/products :: no data yet
+~~~~~
+/routes/api.js
+Here is our /routes/api.js:
+
+// Dependencies
+var express = require('express');
+var router = express.Router();
+
+// Routes
+router.get('/products', function(req, res) {
+   res.send('api works!');
+});
+
+// Return router
+module.exports = router;
+~~~~~
+17. Test it :: http://localhost:3000/api/products :: Will return 'api works!' on browser
+17. npm install dotenv --save
 18. Test on postman - Chrome extensions :: []
 19. postman - post :: add test data
 20. postman - DELETE
