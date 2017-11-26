@@ -15,7 +15,7 @@ Let's make server.js:
   });
   app.listen(3000);
   console.log('Listening on port 3000');
-
+~~~~~
 6. Run it :: node server.js
 7. Test it :: http://localhost:3000/
 8. Install mongoose, node-restful, etc :: npm install --save mongoose node-restful
@@ -57,3 +57,4 @@ Refer to https://help.github.com/articles/adding-an-existing-project-to-github-u
 "fullName" : "Cheryl Ream",
 "role" : "gcm-user" 
 }
+~~~~~
