@@ -5,7 +5,17 @@ Ref :: http://www.bogotobogo.com/MEAN-Stack/Building-REST-API-with-Node-Mongodb.
 2. cd xxx
 3. create package.json :: npm init
 4. install Express :: npm install express --save
-5. create server.js and save it under root directory
+5. create server.js and save it under root directory 
+Let's make server.js:
+~~~~~
+  var express = require('express');
+  var app = express();
+  app.get('/', function(req, res) {
+	  res.send('It works');
+  });
+  app.listen(3000);
+  console.log('Listening on port 3000');
+
 6. Run it :: node server.js
 7. Test it :: http://localhost:3000/
 8. Install mongoose, node-restful, etc :: npm install --save mongoose node-restful
@@ -31,6 +41,7 @@ Refer to https://help.github.com/articles/adding-an-existing-project-to-github-u
 
 ## Add User Model
 # Post 
+~~~~
 {
 "userId" : "ravir2",
 "fullName" : "Raja Ravir",
