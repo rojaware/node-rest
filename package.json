@@ -17,9 +17,10 @@
   },
   "homepage": "https://github.com/rojaware/node-rest#readme",
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "express": "^4.15.3",
-    "mongoose": "^4.10.6",
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2"
+    "mongoose": "^4.13.5",
     "node-restful": "^0.2.6"
   }
 }
